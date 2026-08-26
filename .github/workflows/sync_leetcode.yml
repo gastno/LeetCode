@@ -16,6 +16,5 @@ jobs:
           github-token: ${{ github.token }}
           leetcode-csrf-token: ${{ secrets.CSRFTOKEN }}
           leetcode-session: ${{ secrets.LEETCODE_SESSION }}
-          destination-folder: none
           verbose: true
           commit-header: "[LeetCode Sync]"
